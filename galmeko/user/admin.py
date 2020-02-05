@@ -93,7 +93,7 @@ class UserAdmin(UserAdmin):
     list_per_page = 5  # No of records per page
     fieldsets = (
         (None, {'fields': ('first_name', 'last_name', 'email', 'phone','password', 'type')}),
-        ('Permissions', {'fields': ('is_staff', 'is_active')}),
+        # ('Permissions', {'fields': ('is_staff', 'is_active')}),
     )
     add_fieldsets = (
         (None, {
